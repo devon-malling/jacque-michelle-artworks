@@ -2,4 +2,34 @@
 	padding: 0px;
 	/*margin-bottom: 0px;*/
 	border: 1px solid white;
+/*	max-height: 132px;
+	max-width: 99px;*/
+	margin: 0;
+	display: inline-block;
+	float:left;
+}
+.img-display {
+	/*display: block;
+	margin: 0;*/
+}
+.img-container {
+	/*position: relative;*/
+}
+.masonry {
+    -moz-column-count: 7;
+    -moz-column-gap: 0px;
+    -webkit-column-count: 7;
+    -webkit-column-gap: 0px;
+    column-count: 7;
+    column-gap: 0px;
+    width: 100%; 
+}
+
+.masonry img {
+    display: inline-block;  /*Display inline-block, and absolutely NO FLOATS! */
+    margin: 0px;
+    padding: 0;
+    /*width: 100%; */
+    border: 1px solid white;
+    /*float: left;*/
 }
